@@ -1,4 +1,4 @@
-# ArgoCD Bootstrap GitOps-Operator
+# ArgoCD Bootstrap GitOps-Operator (Public Repo)
 
 [argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot)
 
