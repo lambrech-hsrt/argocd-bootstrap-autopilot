@@ -19,3 +19,8 @@ $env:GIT_TOKEN = "PAT"
 
 argocd-autopilot repo bootstrap --recover
 ```
+
+After that you can start the ArgoCD UI and login with the default credentials at http://localhost:8080
+```shell
+kubectl port-forward -n argocd svc/argocd-server 8080:80
+```
