@@ -1,6 +1,6 @@
 # ArgoCD Bootstrap GitOps-Operator
 
-argoproj-labs/argocd-autopilot
+[argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot)
 
 - Repo pattern: Monorepo
 - Operator pattern: Instance per Cluster / Hub and Spoke
