@@ -1,5 +1,16 @@
 # ArgoCD Bootstrap GitOps-Operator
 
+argoproj-labs/argocd-autopilot
+
+    Repo pattern: Monorepo
+    Operator pattern: Instance per Cluster / Hub and Spoke
+    Operator: ArgoCD
+    Boostrapping: argocd-autopilot
+    Linking: kustomization.yaml, ArgoCD Application, ApplicationSet
+    Features:
+        Operate ArgoCD with GitOps
+        In the future: a lot more automation and YAML creation
+
 How to install the argocd-autopilot CLI see here: https://argocd-autopilot.readthedocs.io/en/stable/Installation-Guide/
 
 ## Recovery Repository in case of a new Cluster Instance
