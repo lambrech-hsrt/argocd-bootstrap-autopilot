@@ -2,7 +2,7 @@
 
 How to install the argocd-autopilot CLI see here: https://argocd-autopilot.readthedocs.io/en/stable/Installation-Guide/
 
-## Recovery Repository for a new Instance
+## Recovery Repository in case of a new Cluster Instance
 
 **MAC/UNIX**
 ```shell
