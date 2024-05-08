@@ -1,5 +1,7 @@
 # ArgoCD Bootstrap GitOps-Operator (Public Repo)
 
+This is an Testing Repository for ArgoCD as an GitOps-Operator to automatically deploy and manage Applications.
+
 [argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot)
 
 - Repo pattern: Monorepo
