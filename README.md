@@ -58,5 +58,12 @@ type: Opaque
 ```
 
 ## Deploy a new Application
-
-
+```
+ argocd app create test \      
+  --repo <repo-url> \
+  --path <path-to-manifests> \
+  --dest-server <kubernetes-cluster-url> \
+  --dest-namespace <kubernetes-namespace> \
+  --project <project-name> \
+  --sync-policy automated
+```
