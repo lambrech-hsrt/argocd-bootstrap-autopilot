@@ -47,11 +47,5 @@ argocd admin initial-password -n argocd
 
 ## Deploy a new Application
 ```
- argocd app create test \      
-  --repo <repo-url> \
-  --path <path-to-manifests> \
-  --dest-server <kubernetes-cluster-url> \
-  --dest-namespace <kubernetes-namespace> \
-  --project <project-name> \
-  --sync-policy automated
+argocd-autopilot app create <new_app_name> --app github.com/some_org/some_repo/manifests --project project_name
 ```
