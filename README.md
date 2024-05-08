@@ -2,6 +2,8 @@
 
 This is an Testing Repository for ArgoCD as an GitOps-Operator to automatically deploy and manage Applications.
 
+The ArgoCD autopilot makes it easy to add and manage applications with the autopilot CLI. The CLI autmatically pushes changes to the git-ops repo.
+
 [argoproj-labs/argocd-autopilot](https://github.com/argoproj-labs/argocd-autopilot)
 
 - Repo pattern: Monorepo
