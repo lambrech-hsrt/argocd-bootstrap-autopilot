@@ -39,22 +39,8 @@ kubectl port-forward -n argocd svc/argocd-server 8080:80
 
 default password:
 ```shell
-kubectl get secret argocd-initial-admin-secret -n argocd -o yaml
-```
+argocd admin initial-password -n argocd
 
-output should look something like this
-```
-apiVersion: v1
-data:
-  password: PASSWORD HERE
-kind: Secret
-metadata:
-  creationTimestamp: "2024-05-06T09:29:02Z"
-  name: argocd-initial-admin-secret
-  namespace: argocd
-  resourceVersion: "876"
-  uid: 44489085-0b23-428a-9c59-280df01cd1c6
-type: Opaque
 ```
 
 ## Deploy a new Application
