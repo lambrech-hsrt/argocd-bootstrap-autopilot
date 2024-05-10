@@ -1,0 +1,13 @@
+{
+  "appName": "guestbook",
+  "userGivenName": "guestbook",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "guestbook",
+  "srcRepoURL": "https://github.com/lambrech-hsrt/argocd-example-apps.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
