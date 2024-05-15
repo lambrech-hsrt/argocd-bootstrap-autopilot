@@ -1,0 +1,13 @@
+{
+  "appName": "apps",
+  "userGivenName": "apps",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps",
+  "srcRepoURL": "https://github.com/argoproj/argocd-example-apps.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
